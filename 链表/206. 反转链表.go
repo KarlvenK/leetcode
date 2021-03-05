@@ -1,7 +1,7 @@
 package main
 
 type ListNode struct {
-	Val int
+	Val  int
 	Next *ListNode
 }
 
@@ -10,12 +10,12 @@ func reverseList(head *ListNode) *ListNode {
 	var prev *ListNode
 	for cur != nil {
 		temp := cur.Next
-		cur.Next = prev;
+		cur.Next = prev
 		prev = cur
 		cur = temp
 	}
 	return prev
 }
 func main() {
-	
+
 }
