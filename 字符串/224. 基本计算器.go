@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func calculate(s string) int {
+func Calculate(s string) int {
 	opt := []int{1}
 	sign := 1
 	ans := 0
@@ -35,5 +35,5 @@ func calculate(s string) int {
 
 func main() {
 	s := "(1+(4+5+2)-3)+(6+8 )"
-	fmt.Println(calculate(s))
+	fmt.Println(Calculate(s))
 }
