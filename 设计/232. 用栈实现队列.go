@@ -91,16 +91,3 @@ func (this *MyQueue) Empty() bool {
  * param_3 := obj.Peek();
  * param_4 := obj.Empty();
  */
-func main() {
-	obj := Constructor()
-	for i := 1; i < 10; i++ {
-		if i%2 == 0 {
-			obj.Push(i)
-		} else {
-			fmt.Println(obj.Peek())
-			if i%3 == 0 {
-				obj.Pop()
-			}
-		}
-	}
-}

@@ -2,10 +2,6 @@ package main
 
 import "container/list"
 
-func main() {
-
-}
-
 const Base = 1007
 
 type MyHashMap struct {
