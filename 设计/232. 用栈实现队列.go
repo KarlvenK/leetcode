@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type MyQueue struct {
 	instack, outstack *stack
 }

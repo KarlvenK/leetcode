@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="new" />
+    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="adjust">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计/.idea/设计.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计/232. 用栈实现队列.go" beforeDir="false" afterPath="$PROJECT_DIR$/设计/232. 用栈实现队列.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/设计/341. 扁平化嵌套列表迭代器.go" beforeDir="false" afterPath="$PROJECT_DIR$/设计/341. 扁平化嵌套列表迭代器.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +26,14 @@
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1pHlLfr8M9CFnXoCqVJAXrMVBve" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -97,6 +113,7 @@
     <MESSAGE value="add solution" />
     <MESSAGE value="update readme" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="adjust" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust" />
   </component>
 </project>
