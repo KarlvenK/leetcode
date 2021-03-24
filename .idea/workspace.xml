@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="adjust">
-      <change afterPath="$PROJECT_DIR$/456. 132模式.go" afterDir="false" />
+    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="monotonical stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/单调栈_队列/456. 132模式.go" beforeDir="false" afterPath="$PROJECT_DIR$/单调栈_队列/456. 132模式.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +48,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/单调栈_队列" />
       <recent name="$PROJECT_DIR$/skill" />
       <recent name="$PROJECT_DIR$/DP" />
       <recent name="$PROJECT_DIR$/链表" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 456. 132模式.go">
+  <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -63,30 +64,6 @@
       <directory value="$PROJECT_DIR$/DP" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 456. 132模式.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/456. 132模式.go" />
-      <package value="leetcode" />
-      <directory value="$PROJECT_DIR$/DP" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build leetcode/设计" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$" />
-      <package value="leetcode" />
-      <directory value="$PROJECT_DIR$/设计" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go 构建.go build 456. 132模式.go" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +100,7 @@
     <MESSAGE value="update readme" />
     <MESSAGE value="new" />
     <MESSAGE value="adjust" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust" />
+    <MESSAGE value="monotonical stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="monotonical stack" />
   </component>
 </project>
