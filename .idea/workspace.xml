@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="monotonical stack">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="solution">
       <change beforePath="$PROJECT_DIR$/单调栈_队列/456. 132模式.go" beforeDir="false" afterPath="$PROJECT_DIR$/单调栈_队列/456. 132模式.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +100,7 @@
     <MESSAGE value="new" />
     <MESSAGE value="adjust" />
     <MESSAGE value="monotonical stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="monotonical stack" />
+    <MESSAGE value="solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution" />
   </component>
 </project>
