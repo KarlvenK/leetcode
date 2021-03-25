@@ -45,7 +45,7 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	pre := dummyHead
 	cur := head
 
-	for cur != nil && cur.Next != nil {
+	for cur != nil && cur.Next != nil { //可能产生只有cur没有cur.Next的情况
 		if cur.Val == cur.Next.Val {
 			mark := cur.Val
 			for cur != nil && cur.Val == mark {
@@ -58,7 +58,7 @@ func deleteDuplicates(head *ListNode) *ListNode {
 			pre.Next = nil // 切断 ！！！！！
 		}
 	}
-	if cur != nil {
+	if cur != nil { //最后还剩单个
 		pre.Next = cur
 	}
 	return dummyHead.Next
