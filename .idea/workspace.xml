@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="solution">
-      <change beforePath="$PROJECT_DIR$/单调栈_队列/456. 132模式.go" beforeDir="false" afterPath="$PROJECT_DIR$/单调栈_队列/456. 132模式.go" afterDir="false" />
+    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="fix solution description">
+      <change afterPath="$PROJECT_DIR$/链表/82. 删除排序链表中的重复元素 II.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,20 @@
       <directory value="$PROJECT_DIR$/DP" />
       <method v="2" />
     </configuration>
+    <configuration name="go build 82. 删除排序链表中的重复元素 II.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/链表/82. 删除排序链表中的重复元素 II.go" />
+      <package value="leetcode" />
+      <directory value="$PROJECT_DIR$/DP" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build 82. 删除排序链表中的重复元素 II.go" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +116,7 @@
     <MESSAGE value="adjust" />
     <MESSAGE value="monotonical stack" />
     <MESSAGE value="solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution" />
+    <MESSAGE value="fix solution description" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix solution description" />
   </component>
 </project>
