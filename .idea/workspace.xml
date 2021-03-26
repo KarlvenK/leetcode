@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="fix solution description">
-      <change afterPath="$PROJECT_DIR$/链表/82. 删除排序链表中的重复元素 II.go" afterDir="false" />
+    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,11 +111,11 @@
     <MESSAGE value="sub string dp" />
     <MESSAGE value="add solution" />
     <MESSAGE value="update readme" />
-    <MESSAGE value="new" />
     <MESSAGE value="adjust" />
     <MESSAGE value="monotonical stack" />
     <MESSAGE value="solution" />
     <MESSAGE value="fix solution description" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix solution description" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>
