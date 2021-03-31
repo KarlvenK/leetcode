@@ -11,11 +11,12 @@ func SubsetsWithDup(nums []int) [][]int {
 	dfs = func(choosePre bool, idx int) {
 		if idx == n {
 			//ans = append(ans, append([]int(nil), temp...))
-			var auto []int
+			ans = append(ans, append(make([]int, 0), temp...))
+			/*var auto []int
 			for _, v := range temp {
 				auto = append(auto, v)
 			}
-			ans = append(ans, auto)
+			ans = append(ans, auto)*/
 			return
 		}
 		dfs(false, idx+1)
