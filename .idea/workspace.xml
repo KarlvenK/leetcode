@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="new">
+    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="add solution">
+      <change afterPath="$PROJECT_DIR$/DP/1143. 最长公共子序列.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/单调栈_队列/面试题 17.21. 直方图的水量.go" beforeDir="false" afterPath="$PROJECT_DIR$/单调栈_队列/面试题 17.21. 直方图的水量.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <recent name="$PROJECT_DIR$/链表" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build 面试题 17.21. 直方图的水量.go">
+  <component name="RunManager" selected="Go 构建.go build 1143. 最长公共子序列.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -74,6 +74,15 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/单调栈_队列/面试题 17.21. 直方图的水量.go" />
+      <package value="leetcode" />
+      <directory value="$PROJECT_DIR$/DP" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 1143. 最长公共子序列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/DP/1143. 最长公共子序列.go" />
       <package value="leetcode" />
       <directory value="$PROJECT_DIR$/DP" />
       <method v="2" />
@@ -99,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build 1143. 最长公共子序列.go" />
         <item itemvalue="Go 构建.go build 面试题 17.21. 直方图的水量.go" />
         <item itemvalue="Go 测试.go test leetcode/search" />
         <item itemvalue="Go 构建.go build 115. 不同的子序列.go" />
@@ -136,7 +146,6 @@
     <MESSAGE value="hash table" />
     <MESSAGE value="hash map" />
     <MESSAGE value="sub string dp" />
-    <MESSAGE value="add solution" />
     <MESSAGE value="update readme" />
     <MESSAGE value="adjust" />
     <MESSAGE value="monotonical stack" />
@@ -145,6 +154,7 @@
     <MESSAGE value="better solution" />
     <MESSAGE value="fix" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="add solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="add solution" />
   </component>
 </project>
