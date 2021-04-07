@@ -1,6 +1,6 @@
 package binary
 
-func Search(nums []int, target int) int {
+func search(nums []int, target int) int {
 	n := len(nums)
 	if n < 1 {
 		return -1
