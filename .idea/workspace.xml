@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="new">
-      <change afterPath="$PROJECT_DIR$/二分/81. 搜索旋转排序数组 II.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二分/81. 搜索旋转排序数组 II_test.go" afterDir="false" />
+    <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="=">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/二分/33. 搜索旋转排序数组.go" beforeDir="false" afterPath="$PROJECT_DIR$/二分/33. 搜索旋转排序数组.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/二分/33. 搜索旋转排序数组_test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
       <recent name="$PROJECT_DIR$/链表" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 测试.go test leetcode/二分">
+  <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -75,63 +71,6 @@
       <directory value="$PROJECT_DIR$/DP" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 面试题 17.21. 直方图的水量.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/单调栈_队列/面试题 17.21. 直方图的水量.go" />
-      <package value="leetcode" />
-      <directory value="$PROJECT_DIR$/DP" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 1143. 最长公共子序列.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/DP/1143. 最长公共子序列.go" />
-      <package value="leetcode" />
-      <directory value="$PROJECT_DIR$/DP" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 781. 森林中的兔子.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/skill/781. 森林中的兔子.go" />
-      <package value="leetcode" />
-      <directory value="$PROJECT_DIR$/DP" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test leetcode/二分" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/二分" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode/二分" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="leetcode/二分 中的 TestSearch" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/二分" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="leetcode/二分" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSearch\E$" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go 测试.go test leetcode/二分" />
-        <item itemvalue="Go 测试.leetcode/二分 中的 TestSearch" />
-        <item itemvalue="Go 构建.go build 781. 森林中的兔子.go" />
-        <item itemvalue="Go 构建.go build 1143. 最长公共子序列.go" />
-        <item itemvalue="Go 构建.go build 面试题 17.21. 直方图的水量.go" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +112,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="add solution" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="=" />
+    <option name="LAST_COMMIT_MESSAGE" value="=" />
   </component>
 </project>
