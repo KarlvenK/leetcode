@@ -11,7 +11,7 @@ func findMin(nums []int) int {
 		} else if nums[mid] > nums[right] {
 			left = mid + 1
 		} else {
-			right = mid - 1
+			right--
 		}
 	}
 	return nums[left]
