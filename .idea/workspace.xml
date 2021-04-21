@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8369be0-7fd1-4c28-b8ee-9ffaea836474" name="默认变更列表" comment="new">
-      <change afterPath="$PROJECT_DIR$/字符串/28.实现strStr().go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DP/91.解码方法.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search/90. 子集 II_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符串/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符串/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符串/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符串/.idea/字符串.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
