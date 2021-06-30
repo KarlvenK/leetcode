@@ -9,7 +9,8 @@ type stack struct {
 }
 
 /** Initialize your data structure here. */
-func Constructor() MyQueue {
+
+func Constructor1() MyQueue {
 	return MyQueue{
 		instack: &stack{
 			size:   0,
@@ -52,33 +53,37 @@ func (obj *stack) top() int {
 }
 
 /** Push element x to the back of queue. */
-func (this *MyQueue) Push(x int) {
-	this.instack.push(x)
+
+func (que *MyQueue) Push(x int) {
+	que.instack.push(x)
 }
 
 /** Removes the element from in front of queue and returns that element. */
-func (this *MyQueue) Pop() int {
-	if this.outstack.empty() {
-		for !this.instack.empty() {
-			this.outstack.push(this.instack.pop())
+
+func (que *MyQueue) Pop() int {
+	if que.outstack.empty() {
+		for !que.instack.empty() {
+			que.outstack.push(que.instack.pop())
 		}
 	}
-	return this.outstack.pop()
+	return que.outstack.pop()
 }
 
 /** Get the front element. */
-func (this *MyQueue) Peek() int {
-	if this.outstack.empty() {
-		for !this.instack.empty() {
-			this.outstack.push(this.instack.pop())
+
+func (que *MyQueue) Peek() int {
+	if que.outstack.empty() {
+		for !que.instack.empty() {
+			que.outstack.push(que.instack.pop())
 		}
 	}
-	return this.outstack.top()
+	return que.outstack.top()
 }
 
 /** Returns whether the queue is empty. */
-func (this *MyQueue) Empty() bool {
-	return this.instack.empty() && this.outstack.empty()
+
+func (que *MyQueue) Empty() bool {
+	return que.instack.empty() && que.outstack.empty()
 }
 
 /**
