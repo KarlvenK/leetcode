@@ -32,6 +32,8 @@ func allPossibleFBT(n int) (ans []*TreeNode) {
 你可以按任何顺序返回树的最终列表。
 
 
+n = 1 [0]
+n > 1 时，根据左右字数节点个数分类
 
-
+采用分治，最后将左右字数的所有情况merge
 */
