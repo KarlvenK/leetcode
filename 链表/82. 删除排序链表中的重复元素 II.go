@@ -4,11 +4,6 @@ import (
 	"fmt"
 )
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func main() {
 	var n int
 	_, _ = fmt.Scanln(&n)
@@ -34,7 +29,7 @@ func main() {
 	}
 }
 
-func deleteDuplicates(head *ListNode) *ListNode {
+func _deleteDuplicates(head *ListNode) *ListNode {
 	if head == nil {
 		return nil
 	}
