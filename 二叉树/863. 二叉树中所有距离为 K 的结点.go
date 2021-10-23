@@ -1,13 +1,6 @@
 package main
 
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
+//TreeNode declared
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
@@ -55,4 +48,3 @@ func distanceK(root *TreeNode, target *TreeNode, k int) (ans []int) {
 	dfs(target, 0)
 	return
 }
-
