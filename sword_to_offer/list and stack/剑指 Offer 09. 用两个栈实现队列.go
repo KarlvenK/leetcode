@@ -1,4 +1,4 @@
-package sword_to_offer
+package list_and_stack
 
 type CQueue struct {
 	s1, s2 stack
