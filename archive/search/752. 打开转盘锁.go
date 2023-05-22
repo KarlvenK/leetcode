@@ -22,7 +22,7 @@ func openLock(deadends []string, target string) int {
 
 	que := []pair{
 		{start,
-			  0,
+			0,
 		},
 	}
 	mark := map[string]bool{
@@ -45,13 +45,13 @@ func openLock(deadends []string, target string) int {
 			ret = append(ret, string(str))
 			/*
 			* 回溯， 枚举下一位
-			*/
+			 */
 			str[i] = char
 		}
 		return
 	}
 
-	for len(que) > 0{
+	for len(que) > 0 {
 		node := que[0]
 		que = que[1:]
 		for _, v := range getNext(node.nums) {
@@ -59,7 +59,7 @@ func openLock(deadends []string, target string) int {
 				return node.step + 1
 			}
 			if !mark[v] && !dead[v] {
-				mark[v] =true
+				mark[v] = true
 				que = append(que, pair{v, node.step + 1})
 			}
 		}
@@ -68,7 +68,7 @@ func openLock(deadends []string, target string) int {
 }
 
 func main() {
-	deadends := []string{"0201","0101","0102","1212","2002"}
+	deadends := []string{"0201", "0101", "0102", "1212", "2002"}
 	target := "0202"
 	fmt.Println(openLock(deadends, target))
 }

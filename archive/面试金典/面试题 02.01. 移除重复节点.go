@@ -2,8 +2,8 @@ package interview
 
 func removeDuplicateNodes(head *ListNode) *ListNode {
 	dict := make(map[int]struct{})
-	dummy := &ListNode {
-		Val: -1,
+	dummy := &ListNode{
+		Val:  -1,
 		Next: head,
 	}
 	var cur, pre *ListNode

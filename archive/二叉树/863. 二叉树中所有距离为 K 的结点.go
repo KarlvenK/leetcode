@@ -1,6 +1,6 @@
 package main
 
-//TreeNode declared
+// TreeNode declared
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode

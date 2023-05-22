@@ -12,6 +12,7 @@ func hammingWeight(num uint32) int {
 func main() {
 
 }
+
 /*
 题目：给你一个数num，求它二进制形式下，1的个数
 
